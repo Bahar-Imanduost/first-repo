@@ -1,0 +1,71 @@
+  1  static void Main(string[] args)
+    {
+        {
+            Console.Write("enter your number");
+        }
+        int number = int.Parse(Console.ReadLine());
+        if (number % 2 == 0)
+        {
+            Console.Write("zog");
+        }
+        else
+        {
+            Console.Write("fard");
+        }
+        Console.WriteLine();
+    }
+}
+
+
+2     static void Main(string[] args)
+    {
+        {
+            Console.Write("enter your number");
+        }
+        int number = int.Parse(Console.ReadLine());
+        if (number % 5 == 0)
+        {
+            Console.Write("Divisible by 5");
+        }
+        else
+        {
+            Console.Write("Indivisible by 5");
+        }
+        Console.WriteLine();
+    }
+}
+
+3     static void Main(string[] args)
+    {
+        int Sum = 0;
+        for (int i = 1; i <= 15; i++)
+        {
+            Sum += i;
+        }
+        Console.WriteLine(Sum);
+    }
+}
+
+4  static void Main(string[] args)
+ {
+
+     Console.Write("enter the first number: ");
+     int a = int.Parse(Console.ReadLine());
+
+     Console.Write("enter the second number: ");
+     int b = int.Parse(Console.ReadLine());
+     if (b == 0)
+     {
+         Console.WriteLine("Division is not possible");
+     }
+     else
+     { 
+     if (a%b == 0 )
+         {
+             Console.WriteLine("a is divisible by b");
+         }
+         else
+         {
+             Console.WriteLine("a is not divisible by b");
+         }
+     }
