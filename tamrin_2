@@ -21,4 +21,5 @@
          {
              Console.WriteLine("Invalid count");
          }
-     }
+    Console.ForegroundColor = ConsoleColor.Blue;
+}
